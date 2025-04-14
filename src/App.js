@@ -18,7 +18,7 @@ import { CartProvider } from './context/CartContext';
 import './styles/App.css';
 
 function App() {
-  // Sample cart items (replace with context/state later)
+ 
   const cartItems = [
     { name: 'Burger', qty: 2, price: 5 },
     { name: 'Fries', qty: 1, price: 3 },

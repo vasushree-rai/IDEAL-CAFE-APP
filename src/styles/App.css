@@ -1,4 +1,4 @@
-/* ----------------- Base Styles ----------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body {
   transition: background 0.3s ease;
 }
 
-/* ----------------- Navbar ----------------- */
+
 .navbar {
   background-color: #7c2d75 !important;
   padding: 1rem 2rem;
@@ -62,7 +62,7 @@ body {
   color: #a25a9c !important;
 }
 
-/* ----------------- Hero Carousel ----------------- */
+
 .carousel-item img {
   height: 500px;
   object-fit: cover;
@@ -163,7 +163,7 @@ body {
 }
 
 
-/* Custom animation */
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -175,12 +175,12 @@ body {
   }
 }
 
-/* Applying the fade-in animation */
+
 .animate-fade-in {
   animation: fadeIn 1s ease-out;
 }
 
-/* Flavor section styles */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -244,7 +244,7 @@ body {
 }
 
 
-/* ----------------- Dish Card ----------------- */
+
 .card {
   border: none;
   border-radius: 20px;
@@ -280,7 +280,7 @@ body {
   color: #888;
 }
 
-/* ----------------- Buttons ----------------- */
+
 .btn-purple {
   background-color: #7c2d75;
   color: #fff;
@@ -297,7 +297,7 @@ body {
   box-shadow: 0 6px 12px rgba(124, 45, 91, 0.3);
 }
 
-/* ----------------- Page Headings ----------------- */
+
 h2 {
   font-size: 2.2rem;
   margin-bottom: 1.5rem;
@@ -383,7 +383,7 @@ h2::after {
   color: #999;
 }
 
-/* ----------------- Footer ----------------- */
+
 .footer {
   text-align: center;
   padding: 2rem;
@@ -486,7 +486,7 @@ h2::after {
   color: #999;
 }
 
-/* ----------------- Forms ----------------- */
+
 input, textarea {
   border: 1px solid #ddd;
   border-radius: 10px;
@@ -541,7 +541,7 @@ input:focus, textarea:focus {
 .text-purple {
   color: #7c2d75;
 }
-/* App.css */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -589,7 +589,7 @@ h2 {
 
 
 
-/* ----------------- Dish Card ----------------- */
+
 .card {
   border: none;
   border-radius: 20px;
@@ -625,7 +625,7 @@ h2 {
   color: #888;
 }
 
-/* ----------------- Buttons ----------------- */
+
 .btn-purple {
   background-color: #7c2d75;
   color: #fff;
@@ -643,7 +643,7 @@ h2 {
 }
 
 
-/* ----------------- Utility Classes ----------------- */
+
 .fade-in {
   opacity: 0;
   animation: fadeIn 1.2s ease forwards;
@@ -654,7 +654,7 @@ h2 {
   100% { opacity: 1; transform: translateY(0); }
 }
 
-/* ----------------- Responsive ----------------- */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 1rem;

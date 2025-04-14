@@ -1,4 +1,4 @@
-// src/pages/Rating.js
+
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import { FaStar } from 'react-icons/fa';
